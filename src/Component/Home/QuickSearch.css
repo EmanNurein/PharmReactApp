@@ -1,0 +1,92 @@
+#QuickSearch{
+    height: 790px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 6%;
+    /* border: 10px groove orange */
+}
+#QuickHeading{
+    color: blue;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    margin-left: 2%;
+}
+#QuickHeading:hover{
+    font-size: 35px;
+}
+
+#QuickSubHeading{
+    line-height:2;
+    color: gray;
+    font-size: 20px;
+    margin-left: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tileContainer{
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    /* border: 2px solid black; */
+    box-shadow: 10px 20px 10px gray;
+    animation:dance 10s infinite
+}
+
+.tileContainer:hover{
+    transform:scale(1.1) ;
+    /*transform: skewY(20deg);
+    /*transform: skewx(-20deg);
+    transform:rotate(20deg);*/
+}
+
+@keyframes dance {
+    0% {transform:rotate(-5deg);}
+    25% {transform:rotate(0deg);}
+    /* 50% {transform:rotate(5deg);}
+    60% {transform: scale(1.1);}
+    75% {transform:rotate(0deg);}
+    100% {transform:rotate(-5deg);} */
+}
+
+
+.tileComponent1{
+    width:58% ;
+    float: left;
+    height: 200px;
+}
+.tileComponent1 > img{
+    height: 200px;
+    width: 90%;
+  
+}
+
+.tileComponent2{
+    width:32% ;
+    float: left;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+.componentHeading{
+    font-size: 17px;
+    color: Blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -8%
+}
+.componentHeading > a{
+    color: blue;
+}
+.componentSubHeading{
+    color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    margin-left: -5%;
+}
+
+
+
+
+

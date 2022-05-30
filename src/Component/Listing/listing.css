@@ -1,0 +1,214 @@
+
+#mainListing{
+    height: 950px;
+    width: 89%;
+    /* border: 2px solid green; */
+    margin-left:6%;
+    margin-top: 7%;
+}
+
+
+#filter{
+    height: 600px;
+    width: 20%;
+    border: 2px solid red;
+    float: left;
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
+
+
+h1{
+    font-size: 17px;
+    text-align: justify; 
+    margin-left: 13%;
+    margin-top: 5%; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    
+}
+
+h3{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+
+.checkmark {
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+#card{
+    height: 990px;
+    width: 60%;
+    border: 2px solid orange;
+    margin-right: 10%;
+    float: right;
+    margin-top: -68%;
+
+}
+
+#Heading1{
+    color: orange;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: block;
+    margin-left:5%;
+}
+
+#Heading1:hover{
+    font-size: 35px;
+}
+#subHeading{
+    line-height: 2;
+    color: gray;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+#mainContainers{
+    height: 880px;
+    width: 90%;
+    border: 2px solid green;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.tileContainers{
+    height: 200px;
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 3%;
+    /* border: 2px solid black; */
+    box-shadow: 10px 20px 25px gray;
+    animation:dance 10s infinite
+}
+
+.tileContainers:hover{
+    transform:scale(1.1) ;
+    /*transform: skewY(20deg);
+    /*transform: skewx(-20deg);
+    transform:rotate(20deg);*/
+}
+
+@keyframes dance {
+    0% {transform:rotate(-5deg);}
+    25% {transform:rotate(0deg);}
+    /* 50% {transform:rotate(5deg);}
+    60% {transform: scale(1.1);}
+    75% {transform:rotate(0deg);}
+    100% {transform:rotate(-5deg);} */
+}
+
+.tileComponent3{
+    width:58% ;
+    float: left;
+    height: 200px;
+    margin-top: 2%;
+}
+.tileComponent3 > img{
+    height: 200px;
+    width: 185%;
+    border: 1px groove #d0cabe;
+
+}
+.tileComponent4{
+    width:58% ;
+    float: left;
+    height: 200px;
+    margin-top: 2%;
+}
+.tileComponent4 > img{
+    height: 200px;
+    width: 185%;
+    border: 1px groove #d0cabe;
+}
+
+.tileComponent5{
+    width:58% ;
+    float: left;
+    height: 200px;
+    margin-top: 2%;
+}
+.tileComponent5> img{
+    height: 200px;
+    width: 185%;
+    border: 1px groove #d0cabe;
+}
+
+.contentDiv{
+    height: 175px;
+    width: 52%;
+    border: 2px solid orange;
+    margin-left:7%;
+    float: left;
+    margin-top: 3%;
+    
+}
+.far-star{
+    font-size: 23px;
+    color:orange;
+    margin-left: 3%;
+}
+
+.checked{
+    color: red;
+    margin-bottom: 5%;
+    margin-left: 1%;
+}
+
+span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 4%;
+}
+
+input{
+    margin-left: 22%; 
+    margin-top: 2%;  
+}
+
+
+.btn{
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    background-color: #54bbef ;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+
+.center{
+    margin-left: 55%;
+    position: relative;
+}
+
+.city_name{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 3%;
+   
+}
+
+
+
+

@@ -1,0 +1,32 @@
+.header{
+    height: 70px;
+    /*border: 2px solid black;*/
+    /*background-color: silver;*/
+}
+.navbar-expand-lg{
+    height: 70px;
+    background-image: url("https://i.ibb.co/ypwbdps/images-back.jpg" );
+    background-size: cover;
+}
+
+.navbar-brand{
+    font-size: 17px;
+}
+
+.Link{ 
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+.nav-link{
+    color:blanchedalmond;
+}
+
+.navbar-nav{
+    margin-top: 1.5%;
+}
+
+#icon{
+    float: left;
+}
