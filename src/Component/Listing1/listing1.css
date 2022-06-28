@@ -1,0 +1,97 @@
+#mainListing{
+    height: 950px;
+    width: 85%;
+    margin-left: 9%;
+    margin-top: 9%;
+    border: 2px solid blue;
+}
+
+#filter{
+    height:600px;
+    width:24%;
+    float: left;
+    border: 5px solid gray;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+#content{
+    width:60%;
+    height: 51%;
+    float: left;
+    margin-left: 34%;
+    margin-top: 12.5%;
+    position:absolute;
+    border: 2px solid green;
+}
+
+h1{
+    font-size: 28px;
+    text-align: justify; 
+    margin-left: 4%;
+    margin-top: 5.5%; 
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+h2{
+    margin-left: 50%;
+    margin-top: -1%;
+}
+
+.item {
+    width: 800px;
+    height: 320px;
+    box-shadow: 0 3px 6px 0 rgba(215, 26, 26, 0.16);
+    margin-bottom: 20px;
+    margin-left: -1%;
+}
+
+.Image {
+    width: 340px;
+    height: 260px;
+    border-radius: 23px;
+    /* background-color: #a02929; */
+    margin-left:8%;
+    margin-top: 8%;
+}
+
+.pharmacy_name {
+    width: 100%;
+    height: 43px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-top: 7%;
+    margin-left: 13%;
+}
+
+.city_name {
+    width: 100%;
+    height: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-left: 6%;
+    margin-top: 1%;
+
+}
+
+
+
+.labelDiv{
+    margin-top:5%;
+    margin-left: 6%;
+    font-size: 15px;
+}

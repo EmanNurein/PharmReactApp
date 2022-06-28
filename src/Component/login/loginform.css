@@ -1,0 +1,37 @@
+.container{
+    width: 45%;
+}
+
+.panel-heading1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.panel-heading1>h3{
+    font-size: 25px;
+}
+
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 9%;
+}
+
+.row1{
+    margin-left: -2%;
+}
+
+.form-group1{
+    width: 120%;
+}
+.btn-success{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: dodgerblue;
+    font-size: 17px;
+    margin-left: -5%;
+}
+
+.center{
+    margin-left: 40%;
+    position: relative;
+}
+

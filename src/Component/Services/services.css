@@ -1,0 +1,28 @@
+.contactme1{
+    height:300px;
+    width: 99%;
+    /* border: 1px solid blue; */
+    background-image: url("https://i.ibb.co/5jNzf0r/pharmacy-services-banner.jpg" );
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:1%;
+    margin-top: 8%;
+}
+
+.Knowmore1{
+    height: 250px;
+    width: 99%;
+    /* border: 1px solid blue; */
+    margin-left: 1%;
+    margin-top: 3%;
+}
+
+.desc1 {
+    padding: 25px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-top: 2%;
+    /* margin-left: 5%; */
+}

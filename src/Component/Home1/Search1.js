@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
-import './Search.css';
+import './Search1.css';
+import { withRouter } from 'react-router-dom';
+
 
 
 const url = "https://pharm-project.herokuapp.com/location"
-const pharmUrl = " https://pharm-project.herokuapp.com/pharmacy/?state_id="
+const pharmUrl = "https://pharm-project.herokuapp.com/pharmacy/?stateId="
 
 
-class Search extends Component {
+class Search1 extends Component {
 
     constructor(props){
         super(props)
@@ -31,7 +33,7 @@ class Search extends Component {
        }
     }
 
-    renderPharma = (data) =>{
+    renderPharm = (data) =>{
         if(data){
             return data.map((item) => {
                 return(
@@ -41,19 +43,29 @@ class Search extends Component {
         }   
     }
 
+
     handlePharmacy = (event) => {
-        let state_id = event.target.value;
-        fetch(`${pharmUrl}${state_id}`, {method:'GET'})
+        let pharmId = event.target.value;
+        console.log(">>>>inside",pharmId)
+        this.props.history.push(`/details?pharmId=${pharmId}`)
+    }
+
+
+    handleCity = (event) => {
+        let pharmId = event.target.value;
+        fetch(`${pharmUrl}${pharmId}`, {method:'GET'})
         .then((res) => res.json())
         .then((data) => {
             // console.log(">>>>data>>",data)
             this.setState({pharmacy:data})
         })       
     }
+   
             
 
     render(){
-        console.log(">>>> inside render")
+        // console.log(">>>> inside render")
+        console.log(">>>> inside props",this.props)
 
         return(
             <div id="search">
@@ -65,13 +77,13 @@ class Search extends Component {
                 Find Your Pharmacy
             </div>
             <div className="dropdown1">
-                <select onChange={this.handlePharmacy}>
+                <select onChange={this.handleCity}>
                     <option>------PLEASE SELECT CITY------</option>
                       {this.renderCity(this.state.location)}
                 </select>
-                <select className="Pharmlist">
+                <select className="Pharmlist" onChange={this.handlePharmacy}>
                     <option>------PLEASE SELECT PHARMACY------</option>
-                      {this.renderPharma(this.state.pharmacy)}
+                      {this.renderPharm(this.state.pharmacy)}
                 </select>
             </div>
           </div>           
@@ -91,4 +103,4 @@ class Search extends Component {
 
 
 
-export default Search;
+export default withRouter(Search1);

@@ -4,6 +4,7 @@
     margin-left: 10%;
     margin-top: 6%;
     /* border: 10px groove orange */
+    display: inline-block;
 }
 #QuickHeading{
     color: blue;

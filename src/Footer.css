@@ -1,0 +1,25 @@
+
+footer{
+    height: 246px;
+    /*border: 2px solid lightseagreen;*/
+ 
+}
+
+.footer-menu{
+    float: left ;
+    margin-top: 3%;
+    position: relative;
+    
+}
+
+.footer-menu a{
+    color: black;
+    padding: 9px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-menu a:hover{
+    color: blue;
+}
+

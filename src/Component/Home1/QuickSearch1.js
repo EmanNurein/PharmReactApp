@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import './QuickSearch.css';
-import QuickDisplay from './QuickDisplay';
+import './QuickSearch1.css';
+import QuickDisplay1 from './QuickDisplay1';
 
 const url = "https://pharm-project.herokuapp.com/producttype"
 
-class QuickSearch extends Component {
-         
+class QuickSearch1 extends Component {
+
     constructor(){
         super()
-
-        this.state = {
+        
+        this.state={
             productType:''
         }
     }
@@ -22,22 +22,22 @@ class QuickSearch extends Component {
                         Quick Search
                     </span>
                     <span id="QuickSubHeading">
-                        Discover Pharmacy with Products 
+                        Discover Pharmacy By Product
                     </span>
-                    <QuickDisplay productData = {this.state.productType}/>       
-                </div>
+                     <QuickDisplay1 productData = {this.state.productType}/>       
+                </div> 
             </div>
-        )  
+        )
     }
 
     componentDidMount(){
-        fetch(url, {method:'GET'})
-        .then((res) => res.json())
-        .then((data) => {
+       fetch(url, {method:'GET'})
+            .then((res) => res.json())
+            .then((data) => {
             this.setState({productType:data})
         })
     }
 }
 
-
-export default QuickSearch;
+export default QuickSearch1;
+         

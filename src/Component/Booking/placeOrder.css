@@ -1,0 +1,75 @@
+.container{
+    border: 2px solid blue;
+    margin-top: 10%;
+} 
+
+.container2{
+    border: 2px solid blue;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+} 
+
+.form-group{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top:1%;
+    margin-left: 2%;
+    width: 47%;
+}
+
+.panel-heading{
+    margin-top: 2%;
+}
+
+
+.panel-heading>h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -1%;
+    margin-left: 9%;
+    color: blue;
+    /* background-color: #198754; */
+    /* border: 5px solid blue; */
+}
+
+
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: -4%;
+    margin-left: 4%;
+    color: blue;
+} 
+
+ 
+h4{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 40%;
+    margin-left: -9%;
+}
+
+.btn4{
+    width:10%;
+    height: 120%;
+    margin-left:-5%;
+    margin-top: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.orderItems{
+    float:left;
+    height:270px;
+    width:265px;
+    margin:2%;
+    box-shadow:10px 10px 20px gray
+}
+
+.orderItems>img{
+   height:200px;
+   width:100%;
+   display:flexbox;
+}

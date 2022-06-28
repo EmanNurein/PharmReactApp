@@ -11,16 +11,17 @@
 
 .navbar-brand{
     font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .Link{ 
     text-decoration: none;
     font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: blanchedalmond;
 }
 .nav-link{
     color:blanchedalmond;
+    
 }
 
 .navbar-nav{
@@ -30,3 +31,54 @@
 #icon{
     float: left;
 }
+
+.btn5{
+    text-align: center;
+    height:30px;
+    width:80px;
+    font-size:17px;
+    background-color:#2e6fef; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: -7%;
+    margin-top:0.5%;
+}
+
+.btnlogin{
+    margin-top:0.5%;
+    margin-left: 5%;
+}
+
+.btnlogin1{
+    margin-top:0.5%;
+    margin-left: -1%;
+}
+
+.btnlogin2{
+    margin-top:0.5%;
+    margin-left: -8%;
+}
+
+.btnlogin3{
+    margin-top:0.3%;
+    font-size: 10px;
+    margin-left: -5%;
+}
+
+.btnlogin4{
+    font-size: 10px;
+    margin-right: -8%; 
+}
+
+.btnlogin5{
+    font-size: 10px;
+    margin-right: -8%; 
+}
+/* .btnclass{
+    margin-top:0.5%;
+    margin-left: -28%;
+} */
+
+
+
+
